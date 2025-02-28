@@ -88,6 +88,11 @@ p {
     color: hsl(0, 0%, 12%);
 }
 
+.buttons a:focus{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
 @media (max-width: 768px) {
     .card {
         width: 90vw;
