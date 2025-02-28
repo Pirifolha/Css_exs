@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    width: 30vw;
+    padding: 45px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+img {
+    border-radius: 50%;
+    width: 40%;
+}
+
+h2 {
+    font-size: 28px;
+    padding-top: 10px;
+    margin: 0;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 16px;
+    margin: 0;
+    padding-top: 9px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+
+.info {
+    text-align: center;
+    padding: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buttons a {
+    display: inline-block;
+    width: 100%;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    font-size: 14px;
+    padding: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.buttons a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90vw;
+        margin: auto;
+    }
+    
+}
