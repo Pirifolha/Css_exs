@@ -13,6 +13,7 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -23,7 +24,7 @@ body {
     width: 30vw;
     padding: 45px;
     border-radius: 20px;
-    margin: auto;
+    margin: 0px auto;
 }
 
 img {
@@ -94,3 +95,4 @@ p {
     }
     
 }
+
