@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.card {
+    padding: 16px 16px 40px 16px;
+    background-color: white;
+    max-width: 320px;
+    height: 475px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 22px;
+    line-height: 120%;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
