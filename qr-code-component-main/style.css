@@ -5,13 +5,11 @@
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: "Outfit", serif;
-}
-
-.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 96vh;
+    flex-direction: column;
 }
 
 
